@@ -9,14 +9,7 @@ body {
 .sidebar2 {
     grid-area: sidebar2;
 }
-.sidebar, .sidebar2, .content{
-    background-color: black;
-    color: white;
-}
-.header, .footer{
-    background-color: cyan;
-    color: black;
-}
+
 
 .content {
     grid-area: content;
@@ -85,4 +78,21 @@ grid-template-areas:
 .sidebar2 {
   background-color: #ccc;
   color: #444;
+}
+.sidebar, .sidebar2, .content{
+    background-color: white;
+    color: black;
+}
+.header, .footer{
+    background-color: cyan;
+    color: black;
+    text-align: center;
+}
+body{
+    height: 87vh;
+    background: radial-gradient(#052643, #000000);
+}
+.wrapper{
+    height: 100%;
+    background-color: rgba(0,0,0,0.0);
 }

@@ -29,6 +29,11 @@
     }
     footer{
         height: 50px;
+        background-color: white;
+    }
+    header{
+        color: white;
+        text-align: center;
     }
     p{
         padding: 0 15px 20px 15px;
@@ -62,6 +67,8 @@
     body{
         min-width: 700px;    
         background: radial-gradient(#052643, #000000);
+        margin-top: 50px;
+        
     }
     nav,article{
         float: left;
@@ -71,13 +78,16 @@
     }
     article, header, footer, nav{
         background-color: white;
-        color: black;        
+        color: black; 
+        margin: 0;       
     }
     h1{
         text-align: center;
+        margin: 0;
     }
     footer{
         clear:both;
+        height: 10vh;
     }
     .row{
         overflow: hidden;
@@ -85,6 +95,9 @@
     }
     .foot > li{
         margin-right: auto;
+    }
+    .foot{
+        margin:0;
     }
     .row::after {
         content: "";
