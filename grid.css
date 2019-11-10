@@ -9,6 +9,14 @@ body {
 .sidebar2 {
     grid-area: sidebar2;
 }
+.sidebar, .sidebar2, .content{
+    background-color: black;
+    color: white;
+}
+.header, .footer{
+    background-color: cyan;
+    color: black;
+}
 
 .content {
     grid-area: content;
