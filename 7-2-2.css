@@ -6,6 +6,9 @@
         background: radial-gradient(#052643, #000000);
 
     }
+    .row{
+        background-color: white;
+    }
     article, header, footer, nav{
         background-color: rgba(0,0,0,0.0);
         color: white;
@@ -78,7 +81,12 @@
     }
     .row{
         overflow: hidden;
+        background-color: white;
         
+        
+    }
+    .foot > li{
+        margin-right: auto;
     }
     .row::after {
         content: "";
