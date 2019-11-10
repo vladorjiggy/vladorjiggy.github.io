@@ -1,3 +1,6 @@
+*{
+    font-family: sans-serif;
+}
 @media screen and (max-width: 800px) {
     body{
         min-width:400px;
@@ -7,10 +10,11 @@
 
     }
     .row{
-        background-color: white;
+        background-color: rgba(0,0,0,0.0);
+        
     }
     article, header, footer, nav{
-        background-color: rgba(0,0,0,0.0);
+        background-color: white;
         color: black;
         width: 100%;
         border: 1px solid black;
@@ -32,6 +36,7 @@
         background-color: white;
     }
     header{
+        background-color: rgba(0,0,0,0.0);
         color: white;
         text-align: center;
     }
@@ -71,11 +76,9 @@
         
     }
     nav,article{
-        float: left;
-        
-        
-          
+        float: left;               
     }
+    
     article, header, footer, nav{
         background-color: white;
         color: black; 
@@ -98,6 +101,13 @@
     }
     .foot{
         margin:0;
+    }
+    header{
+        background-color: rgba(0,0,0,0.0);
+        color: white;
+        margin-bottom: 10px;
+        font-family: sans-serif;
+
     }
     .row::after {
         content: "";
