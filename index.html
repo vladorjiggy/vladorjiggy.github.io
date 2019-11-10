@@ -10,14 +10,33 @@
 
    <link rel="stylesheet" type="text/css" media="screen" href="7-2-2.css" />   
    <link rel="stylesheet" type="text/css" media="print" href="print.css" />
+    <style>
+        header{
+            text-align: center;
+            font-weight: 600;
+            font-family: sans-serif;
+        }
+        .wrapper{
+            display: flex;
+            justify-content: center;
+        }
+        .wrapper > a{
+            padding: 50px;
+            background-color: lightslategray;
+            font-family: sans-serif;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Responsive Design</h1>
     </header>
-    <a href="./mediaQueries.html">Media Queries</a><br><br>
-    <a href="./grid.html">Grid</a><br><br>
-    <a href="./flex.html">Flex</a>
+    <div class="wrapper">
+        <a href="./mediaQueries.html">Media Queries</a><br><br>
+        <a href="./grid.html">Grid</a><br><br>
+        <a href="./flex.html">Flex</a>
+    </div>
     
 </body>
 </html>
