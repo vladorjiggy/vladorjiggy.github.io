@@ -3,11 +3,13 @@
         min-width:400px;
         background-color: lightgrey;
         margin:0;
+        background: radial-gradient(#052643, #000000);
+        
         
     }
     article, header, footer, nav{
-        background-color: white;
-        
+        background-color: rgba(0,0,0,0.0);
+        color: white;
         width: 100%;
         border: 1px solid black;
     }
