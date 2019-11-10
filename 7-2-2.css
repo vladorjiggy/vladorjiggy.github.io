@@ -4,7 +4,7 @@
         background-color: lightgrey;
         margin:0;
         background: radial-gradient(#052643, #000000);
-        
+
     }
     article, header, footer, nav{
         background-color: rgba(0,0,0,0.0);
@@ -53,15 +53,12 @@
         margin-right: 20px;
         
     }
-    @media screen and (max-width: 500px) {
-        article{
-            width: auto;
-        }
-    }
+    
 }
 @media screen and (min-width: 800px) {
     body{
         min-width: 700px;    
+        background: radial-gradient(#052643, #000000);
     }
     nav,article{
         float: left;
@@ -70,9 +67,11 @@
           
     }
     article, header, footer, nav{
-        background-color: white;   
-        /*border: 1px solid black;*/
-        
+        background-color: rgba(0,0,0,0.0);
+        color: white;        
+    }
+    h1{
+        text-align: center;
     }
     footer{
         clear:both;
@@ -114,5 +113,11 @@
     }
     .nav li{
         list-style-type: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    article{
+        width: auto;
     }
 }
